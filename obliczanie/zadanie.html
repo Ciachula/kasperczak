@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+<html lang="pl">
+ <head>
+  <title>Obliczanie</title>
+  <meta charset="utf-8" />
+ <script src="zadanie.js"> 
+
+ 
+  </script>
+ </head>
+
+ <body>
+<form name="formularz">
+Podaj r: <input type="text" name="r"><br>
+Podaj H: <input type="text" name="H"><br>
+<br>
+<p>Co chcesz obliczyć?</p>
+<label><input type="radio" id="obk" name="obliczenie" value="obwkolo">Obwód koła</label><br>
+<label><input type="radio" id="pk" name="obliczenie" value="polekolo">Pole koła</label><br>
+<label><input type="radio" id="obs" name="obliczenie" value="objstozka">Objętość stożka</label><br><br>
+		
+		
+<button type="button" onclick="Oblicz()">Oblicz</button>
+</form><br>
+<div>Wynik:<p id="wynik"></p></div>
+    
+     
+     
+     
+ </body>
+</html>
